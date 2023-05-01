@@ -61,7 +61,7 @@ Transfer learning is a machine learning method where a model developed for a tas
 # Working with data:
 
 # Collecting Data: 
-We basically take Kaggle's (New Plant Disease Dataset) that contain a set of healthy and diseased images in folders with name as their class. So we used keras flow_from_directory feature to collect different dataset.
+We basically take Kaggle's [New Plant Disease Dataset](https://www.kaggle.com/datasets/vipoooool/new-plant-diseases-dataset) that contain a set of healthy and diseased images in folders with name as their class. So we used keras flow_from_directory feature to collect different dataset.
 
 During this we uses image_data_generator to augment image data in many ways. and reduces the image size by 255 point so that our computation get reduced
 
