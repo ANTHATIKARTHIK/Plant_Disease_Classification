@@ -11,10 +11,10 @@ In this project we are using CNN to classify which plant leaves are healthy and 
 
 It stands for Convolution Neural Network, and it is the best algorithm when it comes to working with images, basically it takes two major mathematical opration that diffrentiate it with other Neural Network techniques.
 
-    Convolution Opration
-    Pooling Opration
+    Convolution Operation
+    Pooling Operation
 
-# 1. Convolution Opration:
+# 1. Convolution Operation:
        
 Convolution is a specialized kind of linear operation. Convolution between two functions in mathematics produces a third function expressing how the shape of one function is modified by other.
         
