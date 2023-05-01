@@ -58,6 +58,13 @@ VGG16 is a convolution neural net (CNN ) architecture which was used to win ILSV
 
 Transfer learning is a machine learning method where a model developed for a task is reused as the starting point for a model on a second task. It is a popular approach in deep learning where pre-trained models are used as the starting point on computer vision and natural language processing tasks given the vast compute and time resources required to develop neural network models on these problems and from the huge jumps in skill that they provide on related problems. We are using the same approach for training our model. For this task we are basically following VGG16 architecure with pretrained model with imagenet.
 
+# Working with data:
+
+# Collecting Data: 
+We basically take Kaggle's (New Plant Disease Dataset) that contain a set of healthy and diseased images in folders with name as their class. So we used keras flow_from_directory feature to collect different dataset.
+
+During this we uses image_data_generator to augment image data in many ways. and reduces the image size by 255 point so that our computation get reduced
+
 # Conclusion
  
  The proposed work aims to develop a plant disease classification system using the VGG-16 architecture, which is a deep learning model known for its ability to extract and classify complex features in images. The system takes an input image of a diseased plant, preprocesses it, and extracts features using the VGG-16 model. The extracted features are then passed to a fully connected classification layer, which outputs the predicted class label for the input image.One potential area for future research is to explore other deep learning architectures, such as ResNet and Inception, and compare their performance with the VGG-16 architecture in the context of plant disease classification. Another direction for future work could be to collect a larger and more diverse dataset of plant disease images to improve the accuracy and robustness of the classification system. Additionally, the development of a user-friendly interface for the system could increase its accessibility and usefulness for farmers and agricultural researchers. Finally, the system's performance could be evaluated under various environmental and lighting conditions to determine its feasibility and reliability in real-world settings.
