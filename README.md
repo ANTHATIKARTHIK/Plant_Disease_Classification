@@ -15,7 +15,8 @@ It stands for Convolution Neural Network, and it is the best algorithm when it c
     Pooling Opration
 
 # 1. Convolution Opration:
-        Convolution is a specialized kind of linear operation. Convolution between two functions in mathematics produces a third function expressing how the shape of one function is modified by other.
+       
+Convolution is a specialized kind of linear operation. Convolution between two functions in mathematics produces a third function expressing how the shape of one function is modified by other.
         
 # Convolution Kernels
 A kernel is a small 2D matrix whose contents are based upon the operations to be performed. A kernel maps on the input image by simple matrix multiplication and addition, the output obtained is of lower dimensions and therefore easier to work with.
@@ -35,16 +36,18 @@ There are basically 2 types of pooling opraration:
 
 this indicates if a 2x2 Max pool is used in the network then the matrix creates a 2x2 window and takes the maximum value amoung the 4 values in that particular window. It's very important opration in CNN because it's bascally removes those low parameter values and reduces computation.
 
-# 2. Average pooling: Average pooling is also doing similar opration but instead of taking maximum value from the window it calculates the average of the window and then gives the result. Basically today's in general we are using max pooling as the pooling layer opration because it gives better accuracy and also it's little faster than the average pooling opratin
+# 2. Average pooling: 
+
+Average pooling is also doing similar opration but instead of taking maximum value from the window it calculates the average of the window and then gives the result. Basically today's in general we are using max pooling as the pooling layer opration because it gives better accuracy and also it's little faster than the average pooling opratin
 
 With this two operation in CNN we can able to compute 2D inputs such as images very easily.
 # Complete CNN architecture
 Let me explain the steps involved in this architecture
 
-    In first step an images is passed to Conv layer 1 which is used to do convolutin operation
-    Then pooling layer is created to reduced parameters
-    Layer 3 and 4 are similar like 1 and 2
-    In layer 5 which termed as hidden in this image also called flatten on fully connected layer are just a dense layer converted from the last conv layer after this layer only we apply sigmoid or softmax activation funtion to get the output.
+   In first step an images is passed to Conv layer 1 which is used to do convolutin operation
+   Then pooling layer is created to reduced parameters
+   Layer 3 and 4 are similar like 1 and 2
+   In layer 5 which termed as hidden in this image also called flatten on fully connected layer are just a dense layer converted from the last conv layer after this layer only we apply sigmoid or softmax activation funtion to get the output.
 
 Let's now talk about VGG16 
 # Understanding VGG16 architecture
@@ -57,4 +60,4 @@ Transfer learning is a machine learning method where a model developed for a tas
 
 # Conclusion
  
-        The proposed work aims to develop a plant disease classification system using the VGG-16 architecture, which is a deep learning model known for its ability to extract and classify complex features in images. The system takes an input image of a diseased plant, preprocesses it, and extracts features using the VGG-16 model. The extracted features are then passed to a fully connected classification layer, which outputs the predicted class label for the input image.One potential area for future research is to explore other deep learning architectures, such as ResNet and Inception, and compare their performance with the VGG-16 architecture in the context of plant disease classification. Another direction for future work could be to collect a larger and more diverse dataset of plant disease images to improve the accuracy and robustness of the classification system. Additionally, the development of a user-friendly interface for the system could increase its accessibility and usefulness for farmers and agricultural researchers. Finally, the system's performance could be evaluated under various environmental and lighting conditions to determine its feasibility and reliability in real-world settings.
+ The proposed work aims to develop a plant disease classification system using the VGG-16 architecture, which is a deep learning model known for its ability to extract and classify complex features in images. The system takes an input image of a diseased plant, preprocesses it, and extracts features using the VGG-16 model. The extracted features are then passed to a fully connected classification layer, which outputs the predicted class label for the input image.One potential area for future research is to explore other deep learning architectures, such as ResNet and Inception, and compare their performance with the VGG-16 architecture in the context of plant disease classification. Another direction for future work could be to collect a larger and more diverse dataset of plant disease images to improve the accuracy and robustness of the classification system. Additionally, the development of a user-friendly interface for the system could increase its accessibility and usefulness for farmers and agricultural researchers. Finally, the system's performance could be evaluated under various environmental and lighting conditions to determine its feasibility and reliability in real-world settings.
